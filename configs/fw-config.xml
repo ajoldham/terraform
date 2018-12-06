@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<config version="8.0.0" urldb="paloaltonetworks">
+<config urldb="paloaltonetworks" version="8.1.0">
   <mgt-config>
     <users>
       <entry name="paloalto">
@@ -536,6 +536,9 @@
             </entry>
             <entry name="db-object">
               <ip-netmask>10.5.4.5</ip-netmask>
+            </entry>
+            <entry name="test1">
+              <ip-netmask>1.1.1.1</ip-netmask>
             </entry>
           </address>
         </entry>
