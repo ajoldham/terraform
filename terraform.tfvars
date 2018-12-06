@@ -1,0 +1,8 @@
+FirewallDnsName = "ao-dns-fw1"
+FirewallVmName = "ao-vm-fw1"
+FirewallVmSize = "Standard_D3_v2"
+FromGatewayLogin = "0.0.0.0/0"
+StorageAccountName = "aostor1"
+WebServerDnsName = "ao-dns-web1"
+location = "westus2"
+resource_group_name = "ao-rg-tf5"
