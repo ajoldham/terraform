@@ -67,7 +67,7 @@ def main():
     #global baseStorageAccountName
 
     #baseStorageAccountName = sys.argv[2]
-    config_file_url = "https://gist.githubusercontent.com/vinayvenkat/498291995515207707b7fb9990108daa/raw/4dbab76734725c7f435f3b6edf3bc607ad6cb3da/"
+    config_file_url = "https://raw.githubusercontent.com/ajoldham/terraform/master/configs/fw-config.xml"
 
     t1 = threading.Thread(name='config_fw',target=config_fw)
     t1.start()
